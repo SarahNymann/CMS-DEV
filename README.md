@@ -93,13 +93,7 @@ Make sure Docker, Node.js, and .NET are installed before running the project.
 
 ### Umbraco
 
-1. Navigate to the Umbraco project folder:
-
-   ```bash
-   cd Umbraco
-   ´´´
-
-   ```
+1. Navigate to the Umbraco project folder: `cd Umbraco´
 
 2. Run the project:
    dotnet run
