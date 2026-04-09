@@ -89,11 +89,10 @@ A step-by-step guide is included in:
 
 Make sure Docker, Node.js, and .NET are installed before running the project.
 
----
-
 ### Umbraco
 
-1. Navigate to the Umbraco project folder: `cd Umbraco´
+1. Navigate to the Umbraco project folder:
+   `cd Umbraco`
 
 2. Run the project:
    dotnet run
@@ -103,8 +102,6 @@ Make sure Docker, Node.js, and .NET are installed before running the project.
 
 4. Log in to the Umbraco backoffice:
    /umbraco
-
----
 
 ### WordPress (Docker Setup)
 
@@ -118,8 +115,6 @@ Make sure Docker, Node.js, and .NET are installed before running the project.
    http://localhost
 
 4. Complete the WordPress setup if prompted.
-
----
 
 ### React (Headless Frontend)
 
@@ -136,5 +131,3 @@ Make sure Docker, Node.js, and .NET are installed before running the project.
    http://localhost:5173
 
 5. Make sure your .env file contains the correct WordPress API URL.
-
----
