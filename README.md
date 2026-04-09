@@ -4,9 +4,9 @@ Created by Sarah Nymann Jensen – April 2026
 
 ## Overview
 
-This project is part of a CMS development assignment where I explored and compared two CMS platforms: WordPress and Umbraco.
+This project is part of a CMS development assignment where I explore and compare two CMS platforms: WordPress and Umbraco.
 
-The purpose of this project is to explore and compare how different CMS platforms support development, customization, and developer workflows.
+The purpose of this project is to examine how different CMS platforms support development, customization, and developer workflows.
 
 ---
 
@@ -89,7 +89,11 @@ A step-by-step guide is included in:
 
 ## How to Run the Project
 
-Make sure Docker, Node.js, and .NET are installed before running the project.
+### Requirements
+
+- Docker
+- Node.js
+- .NET
 
 ### Umbraco
 
@@ -108,7 +112,7 @@ Make sure Docker, Node.js, and .NET are installed before running the project.
 ### WordPress (Docker Setup)
 
 1. Navigate to the Docker setup:
-   cd WordPress/docker-headless-react/wp-docker-app
+   `cd WordPress/docker-headless-react/wp-docker-app`
 
 2. Start the containers:
    `docker compose up --build`
@@ -132,4 +136,4 @@ Make sure Docker, Node.js, and .NET are installed before running the project.
 4. Open the shown localhost URL:
    http://localhost:5173
 
-5. Make sure your `.env` file contains the correct WordPress API URL.
+5. Make sure your .env file contains the correct WordPress API URL.
