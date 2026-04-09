@@ -14,6 +14,7 @@ The purpose of this project is to explore and compare how different CMS platform
 
 Below is an overview of the project structure:
 
+```text
 CMS-DEV/
 ├── Umbraco/
 │ └── how-to/
@@ -47,6 +48,7 @@ CMS-DEV/
 │ └── vite.config.js
 ├── .gitignore
 └── README.md
+```
 
 ---
 
@@ -95,7 +97,7 @@ Make sure Docker, Node.js, and .NET are installed before running the project.
    `cd Umbraco`
 
 2. Run the project:
-   dotnet run
+   `dotnet run`
 
 3. Open the URL shown in the terminal:
    https://localhost:xxxx
@@ -109,7 +111,7 @@ Make sure Docker, Node.js, and .NET are installed before running the project.
    cd WordPress/docker-headless-react/wp-docker-app
 
 2. Start the containers:
-   docker compose up --build
+   `docker compose up --build`
 
 3. Open your browser and go to:
    http://localhost
@@ -119,15 +121,15 @@ Make sure Docker, Node.js, and .NET are installed before running the project.
 ### React (Headless Frontend)
 
 1. Navigate to the React app:
-   cd WordPress/headless-react/headless-wp-react
+   `cd WordPress/headless-react/headless-wp-react`
 
 2. Install dependencies:
-   npm install
+   `npm install`
 
 3. Start the development server:
-   npm run dev
+   `npm run dev`
 
 4. Open the shown localhost URL:
    http://localhost:5173
 
-5. Make sure your .env file contains the correct WordPress API URL.
+5. Make sure your `.env` file contains the correct WordPress API URL.
